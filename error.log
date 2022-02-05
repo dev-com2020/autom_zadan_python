@@ -1,0 +1,8 @@
+2022-02-05 11:13:27,912 root INFO Dzielenie 5 przez 0
+2022-02-05 11:13:27,912 root ERROR B³¹d w czasie wykonywania zadania
+Traceback (most recent call last):
+  File "t4.py", line 30, in <module>
+    main(args.n1, args.n2, args.output)
+  File "t4.py", line 11, in main
+    result = number / other_number
+ZeroDivisionError: division by zero

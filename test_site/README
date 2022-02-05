@@ -1,0 +1,7 @@
+Udostępnij tę witrynę za pomocą polecenia:
+
+    python3 simple_delay_server.py
+
+a następnie otwórz ją w przeglądarce:
+
+    http://localhost:8000/
