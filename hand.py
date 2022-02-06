@@ -6,4 +6,4 @@ import pywhatkit
 # całym świecie za "wsparcie, oddanie i uczucie", którym obdarzali ją podczas
 # jej panowania. Elżbieta II wspomina w nim również o swojej synowej.
 # ''')
-pywhatkit.image_to_ascii_art('pywhatkit.png')
+pywhatkit.image_to_ascii_art('obraz.png')
