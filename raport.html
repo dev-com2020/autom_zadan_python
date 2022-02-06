@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Raport nr 1</title>
+</head>
+<body>
+<h1>Raport na temat gier</h1>
+<p>Data {{date}}</p>
+<p>Liczba gier w które zagrałem w ciągu ostatnich 30 dni: {{games|length}}</p>
+<ol>
+    {% for game in games %}
+    {% if games|length > 2 %}
+    <h3>Tylko 2 gry?? Słabo...</h3>
+    {% else %}
+    <li>{{game}}</li>
+    {% endif %}
+    {% endfor %}
+</ol>
+<p>Łączny czas grania w minutach: {{total_minutes}}</p>
+</body>
+</html>
