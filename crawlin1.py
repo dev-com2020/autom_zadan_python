@@ -29,7 +29,7 @@ def process_link(source_link, text):
 
 
 def get_links(parsed_source, page):
-    '''Pobieranie odsyłaczy ze strony.'''
+
     links = []
     for element in page.find_all('a'):
         link = element.get('href')
